@@ -1,0 +1,15 @@
+<Solution>
+  <PropertyGroup Name="super_mahjong" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Project Name="MainScene.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="img">
+          <Image Name="HelloWorld.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
