@@ -1,0 +1,85 @@
+<Solution>
+  <PropertyGroup Name="super_mahjong" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="games">
+          <Folder Name="csb">
+            <Project Name="MainScene.csd" Type="Scene" />
+          </Folder>
+          <Folder Name="img">
+            <Folder Name="nopack">
+              <Image Name="fish_activity_growthspree.png" />
+              <Image Name="fish_artifact_frame_bg.png" />
+              <Image Name="fish_binghanjinyu_frame.png" />
+              <Image Name="fish_blood.png" />
+              <Image Name="fish_btn_contect_us.png" />
+              <Image Name="fish_buyudashen_kuang.png" />
+              <Image Name="fish_channel_bg.png" />
+              <Image Name="fish_checkin_frame_bg.png" />
+              <Image Name="fish_chongzhitehui.png" />
+              <Image Name="fish_clown_update_bg.png" />
+              <Image Name="fish_common_process_01.png" />
+              <Image Name="fish_common_treasure_close.png" />
+              <Image Name="fish_common_treasure_open.png" />
+              <Image Name="fish_connon_frame_bg.png" />
+              <Image Name="fish_contest_frame_bg.png" />
+              <Image Name="fish_contest_frame_mask.png" />
+              <Image Name="fish_dragon_battery_frame_bg.png" />
+              <Image Name="fish_envelops_frame_bg.png" />
+              <Image Name="fish_festival_frame_bg.png" />
+              <Image Name="fish_fishery_text_lottery.png" />
+              <Image Name="fish_fishery_text_node.png" />
+              <Image Name="fish_forge_window.png" />
+              <Image Name="fish_fruit_update_bg.png" />
+              <Image Name="fish_haidao_6.png" />
+              <Image Name="fish_hall_bg.jpg" />
+              <Image Name="fish_honghei_update_bg.png" />
+              <Image Name="fish_jinqingqidai.png" />
+              <Image Name="fish_leshi_frame_bg.png" />
+              <Image Name="fish_loading_di.png" />
+              <Image Name="fish_mermaid_diban.png" />
+              <Image Name="fish_money_frame_bg.png" />
+              <Image Name="fish_pokedex.png" />
+              <Image Name="fish_real_name_act_bg.png" />
+              <Image Name="fish_reward_frame_bg.png" />
+              <Image Name="fish_ricedumping_frame_bg.png" />
+              <Image Name="fish_rule1.png" />
+              <File Name="fish_rule1.png.r3251" />
+              <File Name="fish_rule1.png.r3254" />
+              <Image Name="fish_rule2.png" />
+              <Image Name="fish_share_bg_bazhuayu.png" />
+              <Image Name="fish_share_bg_binglong.png" />
+              <Image Name="fish_share_bg_denglongyu.png" />
+              <Image Name="fish_share_bg_meirenyu.png" />
+              <Image Name="fish_shark_bj.png" />
+              <Image Name="fish_shz_update_bg.png" />
+              <Image Name="fish_star_1.png" />
+              <Image Name="fish_task_frame_bg.png" />
+              <Image Name="fish_xiadaomeiying_lunpan1.png" />
+              <Image Name="fish_xiadaomeiying_pan1.png" />
+              <Image Name="fish_xiadaomeiying_pan2.png" />
+              <Image Name="game_honghei_icon.png" />
+              <Image Name="game_shuiguo_icon.png" />
+              <Image Name="game_shuihu_icon.png" />
+              <Image Name="game_xiaochou_icon.png" />
+              <Image Name="ISBN.png" />
+              <Image Name="laser_effect.png" />
+              <Image Name="loading.jpg" />
+              <Image Name="loading_1.png" />
+              <Image Name="loading_2.png" />
+              <Image Name="loading_3.png" />
+              <Image Name="loading_4.png" />
+              <Image Name="loading_5.png" />
+              <Image Name="loading_circle.png" />
+              <Image Name="logo.png" />
+              <Image Name="scene01.jpg" />
+              <Image Name="scene02.jpg" />
+              <Image Name="scene03.jpg" />
+            </Folder>
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

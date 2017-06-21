@@ -1888,9 +1888,9 @@ cc.DrawNode = cc._DrawNode.extend({
         cc._DrawNode.prototype.drawDot.call(this, pos, radius, color);
     },
 
-    drawSegment:function (from, to, lineWidth = this._lineWidth, color = this._drawColor) {
-        cc._DrawNode.prototype.drawSegment.call(this, from, to, lineWidth, color);
-    },
+    // drawSegment:function (from, to, lineWidth = this._lineWidth, color = this._drawColor) {
+    //     cc._DrawNode.prototype.drawSegment.call(this, from, to, lineWidth, color);
+    // },
 
     drawPoly:function (verts, fillColor, borderWidth, borderColor) {
         borderColor = borderColor || this._drawColor;

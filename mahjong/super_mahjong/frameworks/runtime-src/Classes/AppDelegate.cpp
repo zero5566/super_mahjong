@@ -33,6 +33,7 @@
 #include "scripting/js-bindings/manual/experimental/jsb_cocos2dx_experimental_webView_manual.h"
 #endif
 
+
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_MAC || CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
 #include "scripting/js-bindings/auto/jsb_cocos2dx_audioengine_auto.hpp"
 #endif
@@ -42,6 +43,9 @@
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
 #include "cocos/scripting/js-bindings/manual/platform/ios/JavaScriptObjCBridge.h"
 #endif
+
+// manual bindings
+#include "manual_bindings/jsb_utils.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -150,6 +154,9 @@ bool AppDelegate::applicationDidFinishLaunching()
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
     sc->addRegisterCallback(JavaScriptObjCBridge::_js_register);
 #endif
+
+// manual bindings
+    ScriptingCore::getInstance()->addRegisterCallback(register_jsb_utils);
     sc->start();
     sc->runScript("script/jsb_boot.js");
 #if defined(COCOS2D_DEBUG) && (COCOS2D_DEBUG > 0)
